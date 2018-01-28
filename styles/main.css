@@ -1,6 +1,49 @@
+body {
+  background-color: #555252;
+  padding-bottom: 4rem;
+}
+
 header {
-  background: url(../images/hero2.1.jpg.jpg) center / cover;
+  background: url(../images/hero2.jpg) center / cover;
   height: 60vh;
-  justify-content: center;
-  text-align: center;
+  justify-content: bottom;
+  text-align: left;
+  font-family: "Verdana";
+}
+
+h1 {
+  color: hsla(0, 0%, 67%, 0.9);
+  font-weight: bold;
+  font-family: "Georgia";
+}
+
+.slogan {
+  color: hsla(0, 0%, 67%, 0.8);
+  font-weight: lighter;
+  font-size: 1.6rem;
+}
+
+main {
+  max-width: 900px;
+}
+
+.project-description {
+  padding-left: 0;
+}
+
+.project img {
+  width: 100%;
+}
+
+footer.mdl-mini-footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  padding: 0.5rem;
+  z-index: 1;
+}
+
+footer.mdl-mini-footer > ul {
+  margin: auto;
+  font-size: 2rem;
 }
